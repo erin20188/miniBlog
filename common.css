@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.7;
+    background: #B1B479;
+}
+.side-bar{
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+
+.side-bar > *{
+    padding: 10px 20px;
+}
+.main{
+    float: right;
+    width: 80%;
+}
+.article-list{
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    margin-right: 20%;
+    box-shadow:3px 0px 4px #ABABAB;
+}
+.article-list .article .title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #B1B479;
+}
+.article-list .article{
+    margin-top: 23px;
+}
+.article-list .article > *{
+    margin: 10px 0;
+}
+.article-list .article .status{
+    font-size: 13px;
+    color: gray;
+}
+.side-bar .logo{
+    line-height: 1;
+    background: #ABABAB;
+    border: 5px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: xx-large;
+    display: inline-block;
+    margin: 20px 10px;
+}
+.intro{
+    font-size: small;
+    color: #444444;
+    padding:0px 10px 10px 10px;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+.side-bar .tag a,
+.side-bar .nav a{
+    display: block;
+    padding: 8px;
+    color: #666666;
+    transition:color 250ms;
+}
+
+/*后期尝试用原生js写过渡颜色*/
+.side-bar .tag a:hover,
+.side-bar .nav a:hover{
+    color:#000000;
+}
+
+.side-bar .nav a{
+    font-weight: bold;
+}
+#menu-toggle{
+    display: none;
+}
+

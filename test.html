@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <!--告诉ie用最新的引擎-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <!-- 需要3张样式表，通用的，桌面的，手机端的-->
+    <link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link href="common.css" rel="stylesheet">
+    <link media="(min-width:500px)" href="destop.css" rel="stylesheet"> <!--以宽度为标准判断设备 ,当手机横屏时且宽度满足时-->
+    <link media="(max-width:500px)" href="mobile.css" rel="stylesheet">
+</head>
+<body>
+<div class="side-bar">
+    <label id="menu-toggle" >菜单</label>
+    <!--<input id="menu-checkbox" type="checkbox">-->
+    <header class="logo">麦兜</header>
+    <div class="intro">心情不好的时候，那就上厕所，上完之后，面部狰狞的对着马桶说：“你给我吃屎吧你！”然后猛冲厕所！</div>
+    <div class="box hidden visuallyhidden">
+    <div id="nav-list" class="nav">
+        <a href="#" class="item">我的爱好</a>
+        <a href="#" class="item">我的爱好</a>
+        <a href="#" class="item">我的爱好</a>
+    </div>
+    <div id="tag-list" class="tag">
+        <a href="#" class="item">呵呵</a>
+        <a href="#" class="item">呵呵</a>
+        <a href="#" class="item">呵呵</a>
+    </div>
+    </div>
+</div>
+<div class="main">
+    <div class="article-list">
+        <div class="article">
+            <a href="article.html" class="title">学习jquery</a>
+            <div class="status">发表于2018.2.2 阅读量 500</div>
+            <div class="content">柑橘味爱好者来了解一下[憧憬]Atelier Cologne欧珑的活力柑香礼盒，
+                包含四支人气柑橘味古龙香水：Pomelo Paradis/情柚独钟、Orange Sanguine/赤霞橘光、Bergamote Soleil/馨晴时光、Cedrat Enivrant/醉心柠香 </div>
+        </div>
+        <div class="article">
+            <a href="article2.html" class="title">文章2</a>
+            <div class="status">发表于2018.2.2 阅读量 20200</div>
+            <div class="content">总结了下我觉得自己日常中喜欢/常用的两大色系及对应唇膏：
+                ①粉/玫瑰色系（大家常说的豆沙色） ②暖调红色系（我的真爱色） 我的喜好可以说是非常专一了！！[ok]</div>
+        </div>
+        <div class="article">
+            <a href="article3.html" class="title">文章3</a>
+            <div class="status">发表于2018.2.2 阅读量 20200</div>
+            <div class="content">今日#前端开发#推荐：
+                精读《webpack4.0 升级指南》
+                O网页链接
+                基于规则评分的密码强度检测算法分析及实现(JavaScript)
+                O网页链接
+                快速开发基于 HTML5 网络拓扑图应用之 DataBinding 数据绑定篇</div>
+        </div>
+        <div class="article">
+            <a href="article4.html" class="title">文章4</a>
+            <div class="status">发表于2018.2.2 阅读量 20</div>
+            <div class="content">很多人不理解造型师这个行业，觉得我们只是给明星化妆，并不算是一个专业。
+                但我想说，其实，作为一名造型师，同样也有着专业精神。有时为了做一个完美的特效造型，一天都顾不上喝一口水；</div>
+        </div>
+        <div class="article">
+            <a href="article2.html" class="title">文章2</a>
+            <div class="status">发表于2018.2.2 阅读量 20200</div>
+            <div class="content">总结了下我觉得自己日常中喜欢/常用的两大色系及对应唇膏：
+                ①粉/玫瑰色系（大家常说的豆沙色） ②暖调红色系（我的真爱色） 我的喜好可以说是非常专一了！！[ok]</div>
+        </div>
+        <div class="article">
+            <a href="article3.html" class="title">文章3</a>
+            <div class="status">发表于2018.2.2 阅读量 20200</div>
+            <div class="content">今日#前端开发#推荐：
+                精读《webpack4.0 升级指南》
+                O网页链接
+                基于规则评分的密码强度检测算法分析及实现(JavaScript)
+                O网页链接
+                快速开发基于 HTML5 网络拓扑图应用之 DataBinding 数据绑定篇</div>
+        </div>
+        <div class="article">
+            <a href="article4.html" class="title">文章4</a>
+            <div class="status">发表于2018.2.2 阅读量 20</div>
+            <div class="content">很多人不理解造型师这个行业，觉得我们只是给明星化妆，并不算是一个专业。
+                但我想说，其实，作为一名造型师，同样也有着专业精神。有时为了做一个完美的特效造型，一天都顾不上喝一口水；</div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="transition.js"></script>
+</html>
